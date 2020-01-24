@@ -45,6 +45,6 @@ if __name__ == '__main__':
     else:
         sumo_binary = checkBinary('sumo-gui')
 
-    traci.start([sumo_binary, '-c', 'demo.sumocfg', '--tripinfo-output',
+    traci.start([sumo_binary, '-c', '3x3.sumocfg', '--tripinfo-output',
                  'tripinfo.xml'])
     run()
