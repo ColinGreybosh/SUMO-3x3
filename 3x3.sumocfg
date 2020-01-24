@@ -1,0 +1,9 @@
+<configuration>
+
+	<input>
+		<net-file value="3x3.net.xml"/>
+		<route-files value="3x3.rou.xml"/>
+		<additional-files value="3x3.add.xml"/>
+	</input>
+
+</configuration>
