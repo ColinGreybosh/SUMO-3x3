@@ -15,12 +15,17 @@ import traci
 def run():
     """ Method containing TraCI functionality and simulator loop """
 
+    traci.person.add('person1', 'e16', 50.0)
+    traci.person.appendWalkingStage('person1', ['e16', '-e20', '-e19', 'e1'], 50.0)
+
     step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
+
+        print(traci.person.getPosition3D('person1'))
+
         traci.simulationStep()
 
-        traci.person.add('person1', 'e16', 0.0, 2.0)
-        traci.person.appendWalkingStage('person1', ['e16', 'e1'], 50.0)
+        pass
 
         step += 1
 
