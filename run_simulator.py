@@ -19,7 +19,8 @@ def run():
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
 
-        pass
+        traci.person.add('person1', 'e16', 0.0, 2.0)
+        traci.person.appendWalkingStage('person1', ['e16', 'e1'], 50.0)
 
         step += 1
 
