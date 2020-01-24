@@ -7,4 +7,9 @@
 		<stop lane="e1_0" endPos="50.0" duration="10000"/>
 	</vehicle>
 
+	<vehicle id="b1" type="building" depart="0" departPos="50.0" departLane="0">
+		<route edges="e16"></route>
+		<stop lane="e16_0" endPos="50.0" duration="10000"/>
+	</vehicle>
+
 </additionals>
