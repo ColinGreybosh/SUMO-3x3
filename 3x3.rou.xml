@@ -7,14 +7,14 @@
 		sigma="1.0" maxspeed="20" guiShape="emergency" speedFactor="2.0"
 		minGapLat="0.2"/>
 
-	<flow id="carflow" type="car" beg="0" end="0" number="60" from="e0" to="-e17"/>
+	<!-- <flow id="carflow" type="car" beg="0" end="0" number="60" from="e0" to="-e17"/>
 	<flow id="evflow" type="ev" beg="0" end="0" number="2" from="e1" to="e8"/>
 
 	<personFlow id="pedflow" beg="0" end="0" number="40">
 		<walk from="e3" to="e6"/>
-	</personFlow>
+	</personFlow> -->
 
-	<!-- <route id="route_0" edges="e0 e1 e2 e3 e4 e5"/> -->
-	<!-- <vehicle id="0" type="car" route="route_0" depart="0"/> -->
+	<route id="route_0" edges="e1 e2 e3 e4 e5"/>
+	<vehicle id="0" type="car" route="route_0" depart="0"/>
 
 </routes>
