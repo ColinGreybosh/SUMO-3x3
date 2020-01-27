@@ -21,7 +21,7 @@ def run():
     step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
 
-        print(traci.person.getPosition3D('person1'))
+        print("p1 at:", traci.person.getPosition3D('person1'))
 
         traci.simulationStep()
 

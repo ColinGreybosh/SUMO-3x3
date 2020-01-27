@@ -1,8 +1,8 @@
 <configuration>
 
 	<input>
-		<net-file value="3x3.net.xml"/>
-		<route-files value="3x3.rou.xml"/>
+		<net-file value="cooperH.net.xml"/>
+		<route-files value="cooperH.trips.rou.xml"/>
 		<additional-files value="3x3.add.xml"/>
 		<log value="log.txt"/>
 	</input>
