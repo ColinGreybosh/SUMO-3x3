@@ -8,7 +8,7 @@
     <input>
         <net-file value="./cooperH.net.xml"/>
         <route-files value="./cooperH.trips.rou.xml"/>
-        <additional-files value="./cooperH.add.xml"/>
+        <additional-files value="./cooperH.add.xml,./busStops.add.xml"/>
     </input>
 
     <report>
