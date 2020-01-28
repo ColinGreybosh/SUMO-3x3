@@ -6,13 +6,13 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="/Users/ptinn/Documents/SUMO-3x3/cooperH.net.xml"/>
-        <route-files value="/Users/ptinn/Documents/SUMO-3x3/cooperH.trips.rou.xml"/>
-        <additional-files value="/Users/ptinn/Documents/SUMO-3x3/cooperH.add.xml"/>
+        <net-file value="./cooperH.net.xml"/>
+        <route-files value="./cooperH.trips.rou.xml"/>
+        <additional-files value="./cooperH.add.xml"/>
     </input>
 
     <report>
-        <log value="/Users/ptinn/Documents/SUMO-3x3/log.txt"/>
+        <log value="./log.txt"/>
     </report>
 
 </configuration>
