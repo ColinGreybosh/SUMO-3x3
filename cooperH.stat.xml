@@ -11,15 +11,15 @@
 			 households="9350"
 			 childrenAgeLimit="19"
 			 retirementAgeLimit="66"
-			 carRate="0.1"
+			 carRate="0.3"
 			 unemploymentRate="0.05"
-			 footDistanceLimit="1000"
+			 footDistanceLimit="200"
 			 incomingTraffic="0"
 			 outgoingTraffic="0"
 			 laborDemand="1.05"
 	/>
 
-	<parameters carPreference="0.20"
+	<parameters carPreference="0.30"
 				meanTimePerKmInCity="360"
 				freeTimeActivityRate="0.05"
 				uniformRandomTraffic="0.20"
