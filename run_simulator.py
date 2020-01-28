@@ -15,13 +15,13 @@ import traci
 def run():
     """ Method containing TraCI functionality and simulator loop """
 
-    traci.person.add('person1', 'e16', 50.0)
-    traci.person.appendWalkingStage('person1', ['e16', '-e20', '-e19', 'e1'], 50.0)
+    # traci.person.add('person1', 'e16', 50.0)
+    # traci.person.appendWalkingStage('person1', ['e16', '-e20', '-e19', 'e1'], 50.0)
 
     step = 0
     while traci.simulation.getMinExpectedNumber() > 0:
 
-        print("p1 at:", traci.person.getPosition3D('person1'))
+        # print("p1 at:", traci.person.getPosition3D('person1'))
 
         traci.simulationStep()
 
@@ -37,8 +37,11 @@ def get_options():
     """ Use to parse commandline input when running this python script """
 
     opt_parser = optparse.OptionParser()
+    opt_parser.add_option('-c', '--config-file', action='store', type='string',
+                          dest='config_file',
+                          help='provide the file path to the .sumocfg file')
     opt_parser.add_option('--nogui', action='store_true', default=False,
-                          help="Run the commandline version of SUMO")
+                          help="run the commandline version of SUMO")
     options, args = opt_parser.parse_args()
     return options
 
@@ -50,7 +53,9 @@ if __name__ == '__main__':
         sumo_binary = checkBinary('sumo')
     else:
         sumo_binary = checkBinary('sumo-gui')
-
-    traci.start([sumo_binary, '-c', '3x3.sumocfg', '--tripinfo-output',
-                 'tripinfo.xml'])
+    if options.config_file:
+        traci.start([sumo_binary, '-c', options.config_file,
+                     '--tripinfo-output', 'tripinfo.xml'])
+    else:
+        pass
     run()
