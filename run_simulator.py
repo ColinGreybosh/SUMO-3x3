@@ -25,7 +25,7 @@ def run():
 
         traci.simulationStep()
 
-        pass
+        pass  # TraCI commands go here
 
         step += 1
 
