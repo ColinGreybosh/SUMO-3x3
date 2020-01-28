@@ -1,6 +1,6 @@
 import os
 import sys
-import optparse
+import argparse
 
 if 'SUMO_HOME' in os.environ:
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
@@ -33,29 +33,18 @@ def run():
     sys.stdout.flush()
 
 
-def get_options():
-    """ Use to parse commandline input when running this python script """
-
-    opt_parser = optparse.OptionParser()
-    opt_parser.add_option('-c', '--config-file', action='store', type='string',
-                          dest='config_file',
-                          help='provide the file path to the .sumocfg file')
-    opt_parser.add_option('--nogui', action='store_true', default=False,
-                          help="run the commandline version of SUMO")
-    options, args = opt_parser.parse_args()
-    return options
-
-
 if __name__ == '__main__':
 
-    options = get_options()
-    if options.nogui:
+    # Receive commandline input for the config file and SUMO GUI/CLI
+    parser = argparse.ArgumentParser(description='Run a given .sumocfg file with TraCI intervention')
+    parser.add_argument('config_file', action='store', type=str, help='provide the file path to the .sumocfg file')
+    parser.add_argument('--nogui', action='store_true', default=False, help="run the commandline version of SUMO")
+    args = parser.parse_args()
+
+    if args.nogui:
         sumo_binary = checkBinary('sumo')
     else:
         sumo_binary = checkBinary('sumo-gui')
-    if options.config_file:
-        traci.start([sumo_binary, '-c', options.config_file,
-                     '--tripinfo-output', 'tripinfo.xml'])
-    else:
-        pass
+    traci.start([sumo_binary, '-c', args.config_file,
+                 '--tripinfo-output', 'tripinfo.xml'])
     run()
