@@ -87,33 +87,33 @@
 
 
 	<busStations>
-	<!-- Emmet Abbrev.		busStation#$[edge="e$" pos="40"]*12 -->
-		<busStation id="1" edge="e1" pos="40"/>
-		<busStation id="2" edge="e2" pos="40"/>
-		<busStation id="3" edge="e3" pos="40"/>
-		<busStation id="4" edge="e4" pos="40"/>
-		<busStation id="5" edge="e5" pos="40"/>
-		<busStation id="6" edge="e6" pos="40"/>
-		<busStation id="7" edge="e7" pos="40"/>
-		<busStation id="8" edge="e8" pos="40"/>
-		<busStation id="9" edge="e9" pos="40"/>
-		<busStation id="10" edge="e10" pos="40"/>
-		<busStation id="11" edge="e11" pos="40"/>
-		<busStation id="12" edge="e12" pos="40"/>
+	<!-- Emmet Abbrev.		busStation#$[edge="e$" pos="60"]*12 -->
+		<busStation id="1" edge="e1" pos="60"></busStation>
+		<busStation id="2" edge="e2" pos="60"></busStation>
+		<busStation id="3" edge="e3" pos="60"></busStation>
+		<busStation id="4" edge="e4" pos="60"></busStation>
+		<busStation id="5" edge="e5" pos="60"></busStation>
+		<busStation id="6" edge="e6" pos="60"></busStation>
+		<busStation id="7" edge="e7" pos="60"></busStation>
+		<busStation id="8" edge="e8" pos="60"></busStation>
+		<busStation id="9" edge="e9" pos="60"></busStation>
+		<busStation id="10" edge="e10" pos="60"></busStation>
+		<busStation id="11" edge="e11" pos="60"></busStation>
+		<busStation id="12" edge="e12" pos="60"></busStation>
 
-	<!-- Emmet Abbrev.		busStation#$$$[edge="-e$" pos="40"]*12 -->
-		<busStation id="001" edge="-e1" pos="40"/>
-		<busStation id="002" edge="-e2" pos="40"/>
-		<busStation id="003" edge="-e3" pos="40"/>
-		<busStation id="004" edge="-e4" pos="40"/>
-		<busStation id="005" edge="-e5" pos="40"/>
-		<busStation id="006" edge="-e6" pos="40"/>
-		<busStation id="007" edge="-e7" pos="40"/>
-		<busStation id="008" edge="-e8" pos="40"/>
-		<busStation id="009" edge="-e9" pos="40"/>
-		<busStation id="010" edge="-e10" pos="40"/>
-		<busStation id="011" edge="-e11" pos="40"/>
-		<busStation id="012" edge="-e12" pos="40"/>
+	<!-- Emmet Abbrev.		busStation#$$$[edge="-e$" pos="60"]*12 -->
+<!--		<busStation id="001" edge="-e1" pos="60"></busStation>-->
+<!--		<busStation id="002" edge="-e2" pos="60"></busStation>-->
+<!--		<busStation id="003" edge="-e3" pos="60"></busStation>-->
+<!--		<busStation id="004" edge="-e4" pos="60"></busStation>-->
+<!--		<busStation id="005" edge="-e5" pos="60"></busStation>-->
+<!--		<busStation id="006" edge="-e6" pos="60"></busStation>-->
+<!--		<busStation id="007" edge="-e7" pos="60"></busStation>-->
+<!--		<busStation id="008" edge="-e8" pos="60"></busStation>-->
+<!--		<busStation id="009" edge="-e9" pos="60"></busStation>-->
+<!--		<busStation id="010" edge="-e10" pos="60"></busStation>-->
+<!--		<busStation id="011" edge="-e11" pos="60"></busStation>-->
+<!--		<busStation id="012" edge="-e12" pos="60"></busStation>-->
 	</busStations>
 
 	<busLines>
@@ -133,21 +133,21 @@
 				<station refId="11"/>
 				<station refId="12"/>
 			</stations>
-			<revStations>
-			<!-- Emmet Abbrev.		station[refId="$$$@-"]*12 -->
-				<station refId="012"/>
-				<station refId="011"/>
-				<station refId="010"/>
-				<station refId="009"/>
-				<station refId="008"/>
-				<station refId="007"/>
-				<station refId="006"/>
-				<station refId="005"/>
-				<station refId="004"/>
-				<station refId="003"/>
-				<station refId="002"/>
-				<station refId="001"/>
-			</revStations>
+<!--			<revStations>-->
+<!--			&lt;!&ndash; Emmet Abbrev.		station[refId="$$$@-"]*12 &ndash;&gt;-->
+<!--				<station refId="012"/>-->
+<!--				<station refId="011"/>-->
+<!--				<station refId="010"/>-->
+<!--				<station refId="009"/>-->
+<!--				<station refId="008"/>-->
+<!--				<station refId="007"/>-->
+<!--				<station refId="006"/>-->
+<!--				<station refId="005"/>-->
+<!--				<station refId="004"/>-->
+<!--				<station refId="003"/>-->
+<!--				<station refId="002"/>-->
+<!--				<station refId="001"/>-->
+<!--			</revStations>-->
 			<frequencies>
 				<frequency begin="21600" end="36000" rate="300" />
 				<frequency begin="36000" end="57600" rate="1800" />
