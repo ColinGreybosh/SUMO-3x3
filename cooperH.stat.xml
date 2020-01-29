@@ -85,99 +85,76 @@
 		<school edge="-e23" pos="50" beginAge="10" endAge="20" capacity="300" opening="32400" closing="61200" />
 	</schools>
 
-<!--	-->
-<!--	<busStations>-->
-<!--		<busStation id="1" edge="e11t12" pos="10" />-->
-<!--		<busStation id="2" edge="e12t13" pos="10" />-->
-<!--		<busStation id="3" edge="e13t14" pos="10" />-->
-<!--		<busStation id="4" edge="e14t24" pos="10" />-->
-<!--		<busStation id="5" edge="e24t23" pos="10" />-->
-<!--		<busStation id="6" edge="e23t33" pos="10" />-->
-<!--		<busStation id="7" edge="e33t32" pos="10" />-->
-<!--		<busStation id="8" edge="e32t31" pos="10" />-->
-<!--		<busStation id="9" edge="e31t21" pos="10" />-->
-<!--		<busStation id="10" edge="e21t11" pos="10" />-->
 
-<!--		<busStation id="101" edge="e12t11" pos="10" />-->
-<!--		<busStation id="102" edge="e13t12" pos="10" />-->
-<!--		<busStation id="103" edge="e14t13" pos="10" />-->
-<!--		<busStation id="104" edge="e24t14" pos="10" />-->
-<!--		<busStation id="105" edge="e23t24" pos="10" />-->
-<!--		<busStation id="106" edge="e33t23" pos="10" />-->
-<!--		<busStation id="107" edge="e32t33" pos="10" />-->
-<!--		<busStation id="108" edge="e31t32" pos="10" />-->
-<!--		<busStation id="109" edge="e21t31" pos="10" />-->
-<!--		<busStation id="110" edge="e11t21" pos="10" />-->
+	<busStations>
+	<!-- Emmet Abbrev.		busStation#$[edge="e$" pos="40"]*12 -->
+		<busStation id="1" edge="e1" pos="40"/>
+		<busStation id="2" edge="e2" pos="40"/>
+		<busStation id="3" edge="e3" pos="40"/>
+		<busStation id="4" edge="e4" pos="40"/>
+		<busStation id="5" edge="e5" pos="40"/>
+		<busStation id="6" edge="e6" pos="40"/>
+		<busStation id="7" edge="e7" pos="40"/>
+		<busStation id="8" edge="e8" pos="40"/>
+		<busStation id="9" edge="e9" pos="40"/>
+		<busStation id="10" edge="e10" pos="40"/>
+		<busStation id="11" edge="e11" pos="40"/>
+		<busStation id="12" edge="e12" pos="40"/>
 
-<!--		<busStation id="11" edge="e12t22" pos="10" />-->
-<!--		<busStation id="12" edge="e22t32" pos="10" />-->
-<!--		<busStation id="13" edge="e32t42" pos="10" />-->
-<!--		<busStation id="14" edge="e42t41" pos="10" />-->
-<!--		<busStation id="15" edge="e41t31" pos="10" />-->
+	<!-- Emmet Abbrev.		busStation#$$$[edge="-e$" pos="40"]*12 -->
+		<busStation id="001" edge="-e1" pos="40"/>
+		<busStation id="002" edge="-e2" pos="40"/>
+		<busStation id="003" edge="-e3" pos="40"/>
+		<busStation id="004" edge="-e4" pos="40"/>
+		<busStation id="005" edge="-e5" pos="40"/>
+		<busStation id="006" edge="-e6" pos="40"/>
+		<busStation id="007" edge="-e7" pos="40"/>
+		<busStation id="008" edge="-e8" pos="40"/>
+		<busStation id="009" edge="-e9" pos="40"/>
+		<busStation id="010" edge="-e10" pos="40"/>
+		<busStation id="011" edge="-e11" pos="40"/>
+		<busStation id="012" edge="-e12" pos="40"/>
+	</busStations>
 
-<!--		<busStation id="111" edge="e22t12" pos="10" />-->
-<!--		<busStation id="112" edge="e32t22" pos="10" />-->
-<!--		<busStation id="113" edge="e42t32" pos="10" />-->
-<!--		<busStation id="114" edge="e41t42" pos="10" />-->
-<!--		<busStation id="115" edge="e31t41" pos="10" />-->
-<!--	</busStations>-->
-
-<!--	<busLines>-->
-<!--		<busLine id="101" maxTripDuration="10">-->
-<!--			<stations>-->
-<!--				<station refId="1" />-->
-<!--				<station refId="3" />-->
-<!--				<station refId="4" />-->
-<!--				<station refId="5" />-->
-<!--				<station refId="6" />-->
-<!--				<station refId="7" />-->
-<!--				<station refId="8" />-->
-<!--				<station refId="9" />-->
-<!--			</stations>-->
-<!--			<revStations>-->
-<!--				<station refId="109" />-->
-<!--				<station refId="108" />-->
-<!--				<station refId="107" />-->
-<!--				<station refId="106" />-->
-<!--				<station refId="105" />-->
-<!--				<station refId="104" />-->
-<!--				<station refId="103" />-->
-<!--				<station refId="102" />-->
-<!--			</revStations>-->
-<!--			<frequencies>-->
-<!--				<frequency begin="21600" end="36000" rate="300" />-->
-<!--				<frequency begin="36000" end="57600" rate="1800" />-->
-<!--				<frequency begin="57600" end="68400" rate="300" />-->
-<!--				<frequency begin="68400" end="86399" rate="1800" />-->
-<!--			</frequencies>-->
-<!--		</busLine>-->
-
-<!--		<busLine id="102" maxTripDuration="7">-->
-<!--			<stations>-->
-<!--				<station refId="15" />-->
-<!--				<station refId="9" />-->
-<!--				<station refId="10" />-->
-<!--				<station refId="1" />-->
-<!--				<station refId="11" />-->
-<!--				<station refId="12" />-->
-<!--				<station refId="13" />-->
-<!--				<station refId="14" />-->
-<!--			</stations>-->
-<!--			<revStations>-->
-<!--				<station refId="114" />-->
-<!--				<station refId="113" />-->
-<!--				<station refId="112" />-->
-<!--				<station refId="111" />-->
-<!--				<station refId="101" />-->
-<!--				<station refId="110" />-->
-<!--				<station refId="109" />-->
-<!--				<station refId="115" />-->
-<!--			</revStations>-->
-<!--			<frequencies>-->
-<!--				<frequency begin="28800" end="32400" rate="600" />-->
-<!--				<frequency begin="57600" end="64800" rate="600" />-->
-<!--			</frequencies>-->
-<!--		</busLine>-->
-<!--	</busLines>-->
+	<busLines>
+		<busLine id="101" maxTripDuration="1200">
+			<stations>
+			<!-- Emmet Abbrev.		station[refId="$"]*12 -->
+				<station refId="1"/>
+				<station refId="2"/>
+				<station refId="3"/>
+				<station refId="4"/>
+				<station refId="5"/>
+				<station refId="6"/>
+				<station refId="7"/>
+				<station refId="8"/>
+				<station refId="9"/>
+				<station refId="10"/>
+				<station refId="11"/>
+				<station refId="12"/>
+			</stations>
+			<revStations>
+			<!-- Emmet Abbrev.		station[refId="$$$@-"]*12 -->
+				<station refId="012"/>
+				<station refId="011"/>
+				<station refId="010"/>
+				<station refId="009"/>
+				<station refId="008"/>
+				<station refId="007"/>
+				<station refId="006"/>
+				<station refId="005"/>
+				<station refId="004"/>
+				<station refId="003"/>
+				<station refId="002"/>
+				<station refId="001"/>
+			</revStations>
+			<frequencies>
+				<frequency begin="21600" end="36000" rate="300" />
+				<frequency begin="36000" end="57600" rate="1800" />
+				<frequency begin="57600" end="68400" rate="300" />
+				<frequency begin="68400" end="86399" rate="1800" />
+			</frequencies>
+		</busLine>
+	</busLines>
 
 </city>
