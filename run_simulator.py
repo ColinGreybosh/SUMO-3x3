@@ -25,7 +25,11 @@ def run():
 
         traci.simulationStep()
 
-        pass  # TraCI commands go here
+        # Close road e4 and -e4 at 6am
+        # if step == 21600:
+        #     for lane in range(traci.edge.getLaneNumber('e4')):
+        #         traci.lane.setDisallowed(f'e4_{lane}', 'all')
+        #         traci.lane.setDisallowed(f'-e4_{lane}', 'all')
 
         step += 1
 
