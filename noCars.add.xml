@@ -12,18 +12,4 @@
     <busStop id="stop_e10" lane="e10_1" startPos="5" endPos="20" lines="101"/>
     <busStop id="stop_e11" lane="e11_1" startPos="5" endPos="20" lines="101"/>
     <busStop id="stop_e12" lane="e12_1" startPos="5" endPos="20" lines="101"/>
-
-<!--    busStop#stop_-e$[lane="-e$_1" startPos="5" endPos="20" lines="102"]*12 -->
-    <busStop id="stop_-e1" lane="-e1_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e2" lane="-e2_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e3" lane="-e3_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e4" lane="-e4_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e5" lane="-e5_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e6" lane="-e6_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e7" lane="-e7_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e8" lane="-e8_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e9" lane="-e9_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e10" lane="-e10_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e11" lane="-e11_1" startPos="5" endPos="20" lines="102"/>
-    <busStop id="stop_-e12" lane="-e12_1" startPos="5" endPos="20" lines="102"/>
 </additionals>

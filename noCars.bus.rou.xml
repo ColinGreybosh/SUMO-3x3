@@ -1,19 +1,19 @@
 <routes>
     <vType id="bus" vClass="bus"/>
 
-    <trip id="0" type="bus" depart="0" color="1,1,0" from="e1" to="e12">
-<!--       stop[busStop="stop_e$" duration="20"]*12-->
-        <stop busStop="stop_e1" duration="20"/>
-        <stop busStop="stop_e2" duration="20"/>
-        <stop busStop="stop_e3" duration="20"/>
-        <stop busStop="stop_e4" duration="20"/>
-        <stop busStop="stop_e5" duration="20"/>
-        <stop busStop="stop_e6" duration="20"/>
-        <stop busStop="stop_e7" duration="20"/>
-        <stop busStop="stop_e8" duration="20"/>
-        <stop busStop="stop_e9" duration="20"/>
-        <stop busStop="stop_e10" duration="20"/>
-        <stop busStop="stop_e11" duration="20"/>
-        <stop busStop="stop_e12" duration="20"/>
-    </trip>
+    <flow id="0" type="bus" color="1,1,0" from="e1" to="e12" begin="0" end="86400" period="60" line="101">
+<!--       stop[busStop="stop_e$" duration="20"]*12 -->
+        <stop busStop="stop_e1" until="30"></stop>
+        <stop busStop="stop_e2" until="50"></stop>
+        <stop busStop="stop_e3" until="70"></stop>
+        <stop busStop="stop_e4" until="90"></stop>
+        <stop busStop="stop_e5" until="110"></stop>
+        <stop busStop="stop_e6" until="130"></stop>
+        <stop busStop="stop_e7" until="150"></stop>
+        <stop busStop="stop_e8" until="170"></stop>
+        <stop busStop="stop_e9" until="190"></stop>
+        <stop busStop="stop_e10" until="210"></stop>
+        <stop busStop="stop_e11" until="230"></stop>
+        <stop busStop="stop_e12" until="250"></stop>
+    </flow>
 </routes>

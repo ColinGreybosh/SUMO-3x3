@@ -4,7 +4,7 @@
 
     <input>
         <net-file value="./noCars.net.xml"/>
-        <route-files value="./noCars.random.ped.rou.xml,./noCars.bus.rou.xml"/>
+        <route-files value="./noCars.ped.random.rou.xml,./noCars.bus.rou.xml"/>
         <additional-files value="./noCars.add.xml"/>
     </input>
 
