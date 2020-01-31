@@ -1,7 +1,22 @@
 # SUMO-3x3
 Microscopic Traffic Simulation with Demand POIs using SUMO and TraCI
 
-###### Running the simulator
+## Scenarios
+* 3x3
+* cooperH
+* noCars
+
+### 3x3
+A 3 block by 3 block road network with manual routing and bus stop locations.
+
+### cooperH
+Similar to 3x3, but featuring ACTIVITYGEN demand routes.
+
+### noCars
+Similar to 3x3, but with multimodal transportation.
+Pedestrians make use of the bus line circling the blocks.
+
+## Running the simulator with TraCI intervention
 ```
 usage: run_simulator.py [-h] [--nogui] config_file
 
@@ -13,6 +28,12 @@ positional arguments:
 optional arguments:
   -h, --help   show this help message and exit
   --nogui      run the commandline version of SUMO
-
->>> python run_simulator.py cooperH.sumocfg
+```
+#### Example Usage (with GUI)
+```shell script
+> python run_simulator.py ./cooperH/cooperH.sumocfg
+```
+#### Example Usage (without GUI)
+```shell script
+> python run_simulator.py --nogui ./cooperH/cooperH.sumocfg
 ```
