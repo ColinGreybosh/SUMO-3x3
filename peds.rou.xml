@@ -1,5 +1,0 @@
-<routes>
-    <personFlow id="ped" begin="0" end="80000" period="2">
-        <personTrip from="e1" to="e7" modes="public"/>
-    </personFlow>
-</routes>

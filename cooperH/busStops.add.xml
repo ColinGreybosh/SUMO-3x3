@@ -1,0 +1,48 @@
+<additionals>
+    <busStop id="stop_e1" lane="e1_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e2" lane="e2_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e3" lane="e3_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e4" lane="e4_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e5" lane="e5_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e6" lane="e6_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e7" lane="e7_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e8" lane="e8_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e9" lane="e9_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e10" lane="e10_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e11" lane="e11_0" startPos="55" endPos="65" lines="line1"></busStop>
+    <busStop id="stop_e12" lane="e12_0" startPos="55" endPos="65" lines="line1"></busStop>
+
+    <busStop id="stop_-e1" lane="-e1_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e2" lane="-e2_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e3" lane="-e3_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e4" lane="-e4_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e5" lane="-e5_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e6" lane="-e6_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e7" lane="-e7_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e8" lane="-e8_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e9" lane="-e9_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e10" lane="-e10_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e11" lane="-e11_0" startPos="55" endPos="65" lines="lines1"></busStop>
+    <busStop id="stop_-e12" lane="-e12_0" startPos="55" endPos="65" lines="lines1"></busStop>
+
+<!--    <vType id="BUS" vClass="bus" line="line1" accel="2.6" decel="4.5" sigma="0" length="12"-->
+<!--           minGap="3" maxSpeed="70" color="1,1,0" guiShape="bus"/>-->
+
+<!--    <route id="route_line1" edges="e1 e2 e3 e4 e5 e6 e7 e8 e9 e10 e11 e12 e1"/>-->
+
+<!--    <flow id="bus" type="BUS" route="route_line1" line="line1" begin="0" end="86400" period="500">-->
+<!--        <stop busStop="stop_e1" until="100"/>-->
+<!--        <stop busStop="stop_e2" until="200"/>-->
+<!--        <stop busStop="stop_e3" until="300"/>-->
+<!--        <stop busStop="stop_e4" until="400"/>-->
+<!--        <stop busStop="stop_e5" until="500"/>-->
+<!--        <stop busStop="stop_e6" until="600"/>-->
+<!--        <stop busStop="stop_e7" until="700"/>-->
+<!--        <stop busStop="stop_e8" until="800"/>-->
+<!--        <stop busStop="stop_e9" until="900"/>-->
+<!--        <stop busStop="stop_e10" until="1000"/>-->
+<!--        <stop busStop="stop_e11" until="1100"/>-->
+<!--        <stop busStop="stop_e12" until="1200"/>-->
+<!--    </flow>-->
+
+</additionals>

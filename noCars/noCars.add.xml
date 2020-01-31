@@ -1,0 +1,15 @@
+<additionals>
+<!--    busStop#stop_e$[lane="e$_1" startPos="5" endPos="20" lines="101"]*12 -->
+    <busStop id="stop_e1" lane="e1_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e2" lane="e2_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e3" lane="e3_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e4" lane="e4_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e5" lane="e5_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e6" lane="e6_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e7" lane="e7_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e8" lane="e8_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e9" lane="e9_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e10" lane="e10_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e11" lane="e11_1" startPos="5" endPos="20" lines="101"/>
+    <busStop id="stop_e12" lane="e12_1" startPos="5" endPos="20" lines="101"/>
+</additionals>

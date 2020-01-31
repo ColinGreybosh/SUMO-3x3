@@ -1,0 +1,15 @@
+<additionals>
+
+	<vType id="building" vClass="bus" sigma="0.0" personCapacity="50" guiShape="bus"/>
+
+	<vehicle id="b0" type="building" depart="0" departPos="50.0" departLane="0">
+		<route edges="e1"></route>
+		<stop lane="e1_0" endPos="50.0" duration="10000"/>
+	</vehicle>
+
+	<vehicle id="b1" type="building" depart="0" departPos="50.0" departLane="0">
+		<route edges="e7"></route>
+		<stop lane="e7_0" endPos="50.0" duration="10000"/>
+	</vehicle>
+
+</additionals>

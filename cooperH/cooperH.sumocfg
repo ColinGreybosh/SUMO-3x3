@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Jan 28 15:48:28 2020 by Eclipse SUMO GUI Version 1.4.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="./cooperH.net.xml"/>
+        <route-files value="./cooperH2.trips.rou.xml, ./peds.rou.xml"/>
+        <additional-files value="./cooperH.add.xml,./busStops.add.xml"/>
+    </input>
+
+    <report>
+        <log value="./log.txt"/>
+    </report>
+
+</configuration>
