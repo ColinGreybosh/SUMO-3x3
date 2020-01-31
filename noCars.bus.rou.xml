@@ -1,0 +1,19 @@
+<routes>
+    <vType id="bus" vClass="bus"/>
+
+    <trip id="0" type="bus" depart="0" color="1,1,0" from="e1" to="e12">
+<!--       stop[busStop="stop_e$" duration="20"]*12-->
+        <stop busStop="stop_e1" duration="20"/>
+        <stop busStop="stop_e2" duration="20"/>
+        <stop busStop="stop_e3" duration="20"/>
+        <stop busStop="stop_e4" duration="20"/>
+        <stop busStop="stop_e5" duration="20"/>
+        <stop busStop="stop_e6" duration="20"/>
+        <stop busStop="stop_e7" duration="20"/>
+        <stop busStop="stop_e8" duration="20"/>
+        <stop busStop="stop_e9" duration="20"/>
+        <stop busStop="stop_e10" duration="20"/>
+        <stop busStop="stop_e11" duration="20"/>
+        <stop busStop="stop_e12" duration="20"/>
+    </trip>
+</routes>
